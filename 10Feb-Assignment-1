@@ -1,0 +1,27 @@
+#Write Python program to generate student result whether pass or fail.
+Sno=int(input('Enter Student no: '))
+Sname=input('Enter student name: ')
+Sgroup=input('Enter student group: ')
+S1=int(input('Enter english marks: '))
+S2=int(input('Enter telugu marks: '))
+S3=int(input('Enter fc marks: '))
+S4=int(input('Enter maths marks: '))
+S5=int(input('Enter physics marks: '))
+S6=int(input('Enter computer science marks: '))
+if S1>=35 and S2>=35 and S3>=35 and S4>=35 and S5>=35 and S6>=35:
+    print('Pass')
+else:
+    print('Fail')
+Output:-
+Enter Student no:1
+Enter student name:Chitturi.Drakshayani
+Enter student group:MPCS
+Enter english marks:90
+Enter telugu marks:89
+Enter fc marks:45
+Enter maths marks:74
+Enter physics marks:72
+Enter computer science marks:69
+Pass
+
+    
